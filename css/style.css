@@ -13,11 +13,10 @@ hr
 
 #home-section{
   background-image: url("../img/pexels-photo-696407-copy.jpeg");
-  background-size: cover;
+  background-size: 100%;
   background-position: 50% 50%;
   margin-top:50px;
   background-attachment:fixed;
-  filter: grayscale(100%);
 }
 
 .nav-header-text
@@ -139,7 +138,7 @@ hr
   font-weight: bold;
   color: #b7b7b7;
   background-image: url("../img/pexels-photo-257853-copy.jpeg");
-  background-size: cover;
+  background-size: 100%;
   background-position: 50% 10%;
   background-attachment:fixed;
   position: relative;
