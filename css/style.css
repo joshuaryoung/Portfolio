@@ -120,6 +120,7 @@ body{
   max-height: 20vh;
   width: auto;
   object-fit: contain;
+  filter: grayscale(100%);
 }
 
 .portfolio-cell
@@ -139,7 +140,6 @@ body{
   .portfolio-img
   {
     max-height: 33vh;
-    filter: grayscale(100%);
     transform: scale3d(1,1,1);
     transition: all .25s ease-out;
     backface-visibility: hidden;
