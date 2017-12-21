@@ -106,9 +106,12 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
+  filter: opacity(100%);
   transform: translate3d(-50%,-50%,0);
   color: black;
   text-align: center;
+  z-index: 10;
+  transition: filter .25s ease-out;
 }
 
 .portfolio-img
@@ -131,7 +134,6 @@ body{
   .portfolio-table-text
   {
     transition: filter .25s ease-out;
-    filter: opacity(100%);
   }
 
   .portfolio-img
