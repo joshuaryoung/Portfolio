@@ -199,13 +199,14 @@ body{
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding-top: 29%;
+  padding-top: 14%;
 }
 
 @media only screen and (min-width: 991px)
 {
   #social-media-section{
     background-size: 113%;
+    padding:0;
   }
 }
 
