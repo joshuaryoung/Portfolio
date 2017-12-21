@@ -1,19 +1,19 @@
-function setSectionSizes()
+/*function setSectionSizes()
 {
   $("#home-section").css("height", $(window).height()+50);
   $("#portfolio-section").css("height", $(window).height()+50);
   $("#social-media-section").css("height", $(window).height());
-}
+}*/
 
 $(function ()
 {
-    $(document).ready(setSectionSizes);
+    /*$(document).ready(setSectionSizes);*/
     $("li").on("click", function()
     {
         $("li").parent().find(".active").removeClass("active");
       $(this).addClass("active");
     });
-    $(window).on("resize", setSectionSizes);
+    /*$(window).on("resize", setSectionSizes);*/
 });
 
 $(window).scroll(function()
