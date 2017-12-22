@@ -201,7 +201,7 @@ body{
   position: relative;
   height: 100vh;
   text-align: center;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   padding-top: 15vh;
   padding-bottom: 14vh;
@@ -245,6 +245,7 @@ body{
   color: white;
   width: 32%;
   margin: auto;
+  margin-bottom: 10vh;
   height: 7vh;
   text-align: center;
   justify-content: center;
@@ -256,6 +257,11 @@ body{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
+}
+
+.social-media-container
+{
+  margin-top: 6vh;
 }
 
 @media only screen and (min-width: 991px)
