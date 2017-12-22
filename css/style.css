@@ -136,7 +136,8 @@ body{
 {
   .portfolio-table-text
   {
-    transition: filter .25s ease-out;
+    transition: all .25s ease-out;
+    transition-property: filter, transform;
   }
 
   .portfolio-img
@@ -145,7 +146,7 @@ body{
     transform: scale3d(1,1,1);
     transition: all .25s ease-out;
     backface-visibility: hidden;
-    transition-property: transform, opacity;
+    transition-property: transform, filter;
   }
 
   .portfolio-cell
@@ -186,6 +187,7 @@ body{
   .portfolio-cell:hover .portfolio-table-text
   {
     filter: opacity(0%);
+    transform: translate3d(-50%, -50%, 0) scale3d(1.25,1.25,1);
   }
 
 
