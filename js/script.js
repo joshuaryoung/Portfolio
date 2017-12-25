@@ -15,10 +15,8 @@ $(function ()
     });
     $(window).on("resize", setSectionSizes);*/
     // Select all links with hashes
-    $('a[href*="#"]')
+    $('a[href$="section"]')
       // Remove links that don't actually link to anything
-      .not('[href="#"]')
-      .not('[href="#0"]')
       .on("click", function() {
         // On-page links
         if (
