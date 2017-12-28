@@ -88,18 +88,16 @@ body{
 .portfolio-carousel-img
 {
   display: block;
-  min-width: 80%;
-  max-width: 80%;
+  min-width: 68%;
+  max-width: 68%;
   margin: auto;
   border-radius: 11px;
   margin-bottom: 10%;
-  margin-top: 0%;
+  margin-top: 17%;
 }
 
 .carousel-indicators
-{
-  margin-bottom: 13%;
-}
+{bottom: 2%;}
 
 .carousel-control-prev
 {
@@ -131,7 +129,7 @@ margin-top: 8%;
 #portfolioCarousel
 {
   text-align: center;
-  margin-top: 47vh;
+  margin-top: 44vh;
   transform: translate3d(0,-50%, 0);
 }
 
@@ -143,16 +141,22 @@ margin-top: 8%;
     background-size: cover;
     background-position: 0% 50%;
   }
+
+  #portfolio-section a{
+    display: inline-table;
+    position: relative;
+  }
 }
 
-#portfolio-section a{
-  display: inline-table;
-  position: relative;
-}
+
 
 .portfolio-table
 {
   display: none;
+}
+
+.carousel-anchors
+{
 }
 
 @media only screen and (min-width: 991px)
