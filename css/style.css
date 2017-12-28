@@ -179,7 +179,7 @@ margin-top: 8%;
   .portfolio-img
   {
     position: relative;
-    max-height: 20vh;
+    height: 250px;
     width: auto;
     object-fit: contain;
     filter: grayscale(100%);
